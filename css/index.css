@@ -1,0 +1,240 @@
+body,div,span,p,a,img,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,dt,dd,input {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-size: 16px;
+	font-family: "宋体";
+	color: #fff;
+}
+a{
+	text-decoration: none;
+}
+/*头部开始*/
+.topwarp{
+	width:100%;
+	/*overflow: hidden;*/
+	height: 680px;
+	background:url(../imges/banner.png) no-repeat center center;
+	
+	
+}
+/*头部结束*/
+/*关于我们开始*/
+.aboutme{
+	width: 1200px;
+	height: 580px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	
+}
+.aboutme span{
+	width: 1px;
+	height: 401px;
+	margin: 0 auto;
+}
+.aboutme img{
+	margin-top: 50px;
+}
+.aboutme dl{
+	margin-top: 70px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.aboutme dl.left{
+	width: 515px;
+	height: 330px;
+	background: #67ebff;
+	float: left;
+	overflow: hidden;
+}
+.aboutme .left dd{
+	text-align: left;
+	margin:30px 0 0 165px;
+}
+.aboutme .left dd h3{
+	font-size: 18px;
+}
+.aboutme .left dd h4{
+	font-size: 18px;
+}
+.aboutme dl dt{
+	float: left;
+	margin: 30px 0 0 10px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.aboutme dl.right{
+	width: 515px;
+	height: 330px;
+	background: #67ebff;
+	float: right;
+	overflow: hidden;
+}
+.aboutme dt{
+	float: left;
+	margin: 30px 0 0 10px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+.aboutme dd{
+	text-align: left;
+	margin:30px 0 0 135px;
+}
+.aboutme b.one{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	/*兼容低版本浏览器*/
+	border: 25px solid #67ebff;
+	position: absolute;
+	top: 50%;
+	margin-top:30px;
+	margin-left: -95px;
+	border-color:  transparent transparent transparent #67ebff;
+	border-style: dashed dashed dashed solid;
+	
+}
+.aboutme b.two{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	/*兼容低版本浏览器*/
+	border: 25px solid #67ebff;
+	position: absolute;
+	top: 50%;
+	margin-top:30px;
+	margin-left: 30px;
+	border-color:  transparent #67ebff transparent transparent ;
+	border-style: dashed dashed dashed solid;
+}
+/*关于我们结束*/
+/*我的技能开始*/
+.skillswarp{
+	width: 100%;
+	height: 680px;
+	background: url(../imges/图层-1.png) no-repeat center center;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+	overflow: hidden;
+}
+.skills{
+	width: 1200px;
+	height: 680px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.skills .left{
+	width: 580px;
+	height: 680px;
+	float: left;
+	margin-top:-25px;
+	overflow: hidden;
+}
+.skills .left ul{
+	width: 580px;
+	height: 110px;
+	margin:25px 0 0 20px;
+	overflow: hidden;
+}
+.skills .left ul li img{
+	float: left;
+
+}
+.skills .left ul li p{
+	height: 45px;
+	width: 370px;
+	text-align: left;
+	margin:40px 0 0 128px ;
+	
+}
+/*结束*/
+.skills .right{
+	width: 600px;
+	height:680px;
+	float: right;
+	margin-top:-60px;
+	overflow: hidden;
+}
+.skills .right ul{
+	width: 600px;
+	height: 45px;
+	float: right;
+	margin-top: 90px;
+}
+.skills .right ul li img{
+	float: left;
+}
+.skills .right ul li p{
+	width: 370px;
+	height: 45px;
+	text-align: left;
+	margin:0 0 0 215px ;
+}
+.skillswarp .pic{
+	margin-top: 20px;
+}
+
+
+
+/*我的技能结束*/
+
+/*我的工作开始*/
+
+.myworke{
+	width: 1200px;
+	margin: 30px auto ;
+	text-align: center;
+	
+}
+.myworke ul{
+	padding-top: 30px;
+}
+.myworke ul li{
+	float: left;
+	margin:0 20px 30px 0 ;
+}
+.myworke .tex P{
+	color: #333;
+	display: inline-block;
+	font-size: 24px;
+	font-family: "arial, helvetica, sans-serif";
+	padding-top:40px ;
+	margin-left: 60px;
+	cursor: pointer;
+}
+.myworke .tex  .active{
+	border-bottom: 3px solid #67ebff;
+	color: #67ebff;
+}
+.worke div{
+	display: none;
+}
+.worke .all{
+	display: block;
+	cursor: pointer;
+}
+
+/*我的工作结束*/
+
+/*底部开始*/
+.button{
+	width: 100%;
+	height: 150px;
+	background: #333;
+	overflow: hidden;
+}
+.button p{
+	font-size: 40px;
+	font-family: "arial, helvetica, sans-serif";
+	text-align: center;
+	line-height: 150px;
+}
+/*底部结束*/
+
+
